@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.barra_superior{
+    border-bottom: 1px solid ;
+    
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
