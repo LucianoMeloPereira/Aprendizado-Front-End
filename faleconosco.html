@@ -2,47 +2,155 @@
 <html>
     <head>
         <title>Fale conosco</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
-        <div>
-            <form enctype="application/x-www-form-urlencoded" method="post">
-                <label for="NomeCompleto">Nome</label>
-                <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite seu nome completo"/>
-                <br>
 
-                <label for="Email">Email</label>
-                <input id="Email" type="email" name="E-mail" placeholder="Digite seu Email"/>
-                <br>
-
-                <label for="Telefone">Telefone</label>
-                <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu Telefone"/>
-                <br>
-
-                <label for="Mensagem">Mensagem</label>
-                <textarea id="Mensagem" name="Mensagem"></textarea>
-                <br>
-
-                <input type="submit" value="Submit"/>
-
-            </form>
-            Formulário 
-        </div>
-        <div>
-            <div>
-                Telefone: 11 4002-8922.
-                Redes Sociais: (Facebook, Twitter e Instagram)
+        <header>
+            <div  class="barra_superior">
+                <div class="container">
+                    Horário de abertura: 09:00 - 18:00 
+                </div>
             </div>
-            <address>
-                São Paulo, SP
+            <div class="container">
+                <img class="logo" alt="Logo da empresa" 
+            title="Aqui é apresentado a logo da empresa" 
+            src="img/logo.jpg"/>
+            <nav>
+                <a alt="Vai para pagina inicial do site"
+                         href="index.html"> Inicio|</a>
+                 <a href="#marcas">Produtos e Marcas|</a>    
+                  <a title="Vai Para a página de fale conosco"
+                     href="faleconosco.html">Fale Conosco</a> 
+                  <a class="btn-destaque" href="ondeestamos.html">(Onde estamos)</a>
+            </nav>
+            </div>
+            
+         </header>
+         <br class="clearfix">
+        <section class="sec-fale-onde"> 
+            <div class="metade">
+                <form enctype="application/x-www-form-urlencoded" method="post">
+                    <label for="NomeCompleto">Nome</label>
+                    <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite seu nome completo"/>
+                    <br>
+
+                    <label for="Email">Email</label>
+                    <input id="Email" type="email" name="E-mail" placeholder="Digite seu Email"/>
+                    <br>
+
+                    <label for="Telefone">Telefone</label>
+                    <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu Telefone"/>
+                    <br>
+
+                    <label for="Mensagem">Mensagem</label>
+                    <textarea id="Mensagem" name="Mensagem"></textarea>
+                    <br>
+
+                    <input type="submit" value="Submit"/>
+
+                </form>
+                Formulário 
+            </div>
+            <div class="metade">
+                <div>
+                    <strong> Telefone: 11 4002-8922.</strong> 
+                    <strong>Redes Sociais:</strong> 
+                    <br>
+
+                    <a href="#">
+                        <img alt="Link para Facebook"
+                         src="img/facebook.jpg"/>
+                     </a>
+                    
+                    <a href="#">
+                        <img alt="Link para Twitter"
+                        src="img/twitter.jpg"/>
+                    </a>
+                    <a href="#">
+                        <img alt="Link para Instagram"
+                        src="img/Instagram.jpg"/>
+                    </a>
+                </div>
                 <br>
-                06814-000   
                 <br>
-                Estrada de Itapeceria n°2600
+                <address>
+                    São Paulo, SP
+                    <br>
+                    06814-000   
+                    <br>
+                    Estrada de Itapeceria n°2600
+                    
+                </address>
+                Informações de contato
+            </div>
+            Fale Conosco
+    </section>
+
+        <footer>
+            <div class="container">
+                <div class="um-terco">
+                    <div class="container-logo">
+                        <img class="logo" alt="Logo da empresa" 
+                            title="Aqui é apresentado a logo da empresa" 
+                            src="img/logo.jpg"/>
+                    </div>
+                   <p>Nos oferecemos um serviço completo para o melhor conforto da sua visão.</p> 
+                   <div class="container-logo">
+                        <a href="#">
+                            <img alt="Link para Facebook"
+                             src="img/facebook.jpg"/>
+                         </a>
+                        
+                        <a href="#">
+                            <img alt="Link para Twitter"
+                            src="img/twitter.jpg"/>
+                        </a>
+                        <a href="#">
+                            <img alt="Link para Instagram"
+                            src="img/Instagram.jpg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="um-terco">
+                    <div class="margem_esquerda">
+                        <h3>Links</h3>
+    
+                        <a alt="Vai para pagina inicial do site"
+                         href="index.html"> Inicio</a>
+                         <br> 
+                        <a alt="vai para a lista de marcas que trabalhamos"
+                         href="#marcas">Marcas</a>
+                         <br>
+                         <a title="Vai Para a página de fale conosco"
+                     href="faleconosco.html">Fale Conosco</a> <br>
+                     <a href="ondeestamos.html">Onde estamos</a>
+                    </div>
+                </div>
+                <div class="um-terco">
+                    <h3>Contato</h3>
+    
+                    <p><span class="negrito">Endereço: </span> Rua x, endereço Y, Avenida Z.<br>
+                    Embu Das Artes, SP 06814280<br></p>
+    
+                    <p><span class="negrito">Telefone: </span><a href="tel:1140028922">(11) 4002-8922</a><br></p>
+    
+                  
+                    <p><span class="negrito">Email: </span>
+                        <a href="mailto:otica@otica.com.br">otica@otica.com.br</a><br></p>
+                   
+                </div>
+            </div>
+            <br class="clearfix">
+    
+            <div class="direitos-reservados">
                 
-            </address>
-            Informações de contato
-        </div>
-        Fale Conosco
+                Todos os direitos reservados @ 2022. 
+                <a href="termodeuso.html">Termos de uso</a> e 
+                <a href="politicaprivacidade.html">Politica de privacidade.</a>
+            </div>
+            
+         </footer>
     </body>
 </html>
 
